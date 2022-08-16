@@ -1,0 +1,753 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                
+                .header {
+                    background-color: #ffffff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100px;
+                }
+                
+                .header>* {
+                    flex: 1;
+                }
+                
+                .logo {
+                    margin-left: 172px;
+                    margin-top: 5px;
+                }
+                
+                .menu {
+                    display: flex;
+                    gap: 56px;
+                    margin-left: 300px;
+                }
+                
+                .menu-link {
+                    font-family: Poppins;
+                    font-size: 12px;
+                    line-height: 23px;
+                    letter-spacing: 1.5px;
+                    color: black;
+                    text-decoration: none;
+                }
+                
+                .search {
+                    margin-left: 146px;
+                }
+                /* Hero Area Start */
+                
+                .hero-area {
+                    background-color: #F9F8F9;
+                    display: flex;
+                    padding-left: 50px;
+                    align-items: center;
+                }
+                
+                .hero-title {
+                    font-family: Playfair Display;
+                    font-size: 90px;
+                    font-weight: 700;
+                    line-height: 108px;
+                    letter-spacing: 0.02em;
+                    text-align: left;
+                    color: #094B72;
+                }
+                
+                .hero-description {
+                    color: #4F4F4F;
+                    font-family: Plus Jakarta Sans;
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 38px;
+                    letter-spacing: 0.5px;
+                    text-align: left;
+                }
+                
+                .btn-hero {
+                    background-color: #094B72;
+                    color: white;
+                    height: 80px;
+                    width: 190px;
+                    border-radius: 8px;
+                    font-family: Plus Jakarta Sans;
+                    font-size: 16px;
+                    font-weight: 700;
+                    letter-spacing: 0.08em;
+                }
+                
+                .trust-text {
+                    font-family: Plus Jakarta Sans;
+                    font-size: 22px;
+                    line-height: 31px;
+                    letter-spacing: 0.04em;
+                    text-align: left;
+                    color: #8B8C8C;
+                    margin-top: 100px;
+                }
+                
+                .hero-logo {
+                    display: flex;
+                    align-items: center;
+                    gap: 50px
+                }
+                /* Service Area Start */
+                
+                .container {
+                    width: 1200px;
+                    margin: 0 auto;
+                }
+                
+                .services-area {
+                    background-color: #F2FCFF;
+                    padding: 100px 0;
+                }
+                
+                .services {
+                    display: flex;
+                }
+                
+                .services>* {
+                    flex: 1;
+                    /* we use this because of to get both 50% area    */
+                }
+                
+                .services-text {
+                    margin-top: 70px;
+                    padding-right: 200px;
+                    margin-left: 40px;
+                }
+                
+                .services-text h2 {
+                    color: #2D2F30;
+                    font-family: 'Playfair Display', serif;
+                    font-size: 40px;
+                    margin-bottom: 20px;
+                }
+                
+                .services-text p {
+                    color: #8B8C8C;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 20px;
+                    line-height: 36px;
+                }
+                
+                .iteams {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                }
+                
+                .iteam1 {
+                    display: flex;
+                    gap: 30px;
+                }
+                
+                .iteam2 {
+                    display: flex;
+                    gap: 30px;
+                }
+                
+                .single-service {
+                    background-color: #FCFCFC;
+                    border-radius: 5px;
+                    width: 250px;
+                    padding: 25px;
+                    box-shadow: -2px 3px 24px 6px rgba(0, 0, 0, 0.13);
+                }
+                
+                .single-service h3 {
+                    font-family: 'Playfair Display', serif;
+                    color: #363940;
+                    font-size: 24px;
+                    line-height: 22px;
+                    margin: 13px 0;
+                }
+                
+                .single-service p {
+                    color: #8B8C8C;
+                    font-family: 'Plus Jakarta Sans', sans-serif;
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+                /* Count Area Start */
+                
+                .count-area {
+                    background-color: #1282A6;
+                    text-align: center;
+                    height: 376px;
+                }
+                
+                .count-text {
+                    padding: 75px;
+                }
+                
+                .count-text h2 {
+                    font-family: Playfair Display;
+                    color: #FFFFFF;
+                    font-size: 48px;
+                    font-weight: 900;
+                    line-height: 64px;
+                    letter-spacing: 0.005em;
+                    text-align: center;
+                }
+                
+                .count-text p {
+                    font-family: Poppins;
+                    color: #FFFFFF;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    letter-spacing: 0.5px;
+                    text-align: center;
+                }
+                
+                .count-number {
+                    display: flex;
+                    justify-content: center;
+                }
+                
+                .count-number h2 {
+                    font-family: Poppins;
+                    color: #ffffff;
+                    font-size: 48px;
+                }
+                
+                .count-number p {
+                    font-family: Poppins;
+                    color: #ffffff;
+                    font-size: 18px;
+                    line-height: 32px;
+                }
+                
+                .count1 {
+                    border-right: solid rgba(255, 254, 254, 0.397);
+                }
+                
+                #b {
+                    margin-right: 100px;
+                    margin-left: 100px;
+                }
+                /* Testimonial Area Start */
+                
+                .testmonial-area {
+                    background-color: #F4FBFF;
+                    height: 580px;
+                }
+                
+                .testmonial-text {
+                    text-align: center;
+                    padding: 30px;
+                    font-family: Playfair Display;
+                    font-size: 30px;
+                    line-height: 64px;
+                    letter-spacing: 0.5px;
+                }
+                
+                .box {
+                    display: flex;
+                    justify-content: center;
+                }
+                
+                .box-text {
+                    background-color: #FCFCFC;
+                    margin-right: 30px;
+                    height: 220px;
+                    width: 540px;
+                    border-radius: 10px;
+                    padding: 25px;
+                    box-shadow: -2px 3px 24px 6px rgba(0, 0, 0, 0.13);
+                }
+                
+                .box-text h5 {
+                    font-family: Poppins;
+                    color: #151617;
+                    font-size: 20px;
+                    line-height: 28px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                }
+                
+                .box-text p {
+                    font-family: Poppins;
+                    color: #4F4F4F;
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: 0.5px;
+                    text-align: center;
+                }
+                
+                .box-logo {
+                    display: flex;
+                    justify-content: center;
+                    padding: 20px;
+                }
+                
+                .box-t {
+                    margin-left: 20px;
+                }
+                
+                .box-t h5 {
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+                
+                .box-t p {
+                    font-family: Inter;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+                /* Support Area Start */
+                
+                .support-area {
+                    background-color: #FFFFFF;
+                    display: flex;
+                    height: 374px;
+                }
+                
+                .support-text {
+                    padding: 30px;
+                    margin-left: 79px;
+                }
+                
+                .support-text h3 {
+                    font-family: Playfair Display;
+                    color: #2D2F30;
+                    font-size: 48px;
+                    line-height: 64px;
+                    text-align: left;
+                }
+                
+                .support-text p {
+                    font-family: Poppins;
+                    color: #4F4F4F;
+                    font-size: 24px;
+                    line-height: 36px;
+                    text-align: left;
+                }
+                
+                .sb {
+                    background-color: #0F6E8C;
+                    color: #ffffff;
+                    height: 64px;
+                    width: 219px;
+                    left: 165px;
+                    top: 3005px;
+                    border-radius: 8px;
+                }
+                
+                #sl {
+                    border-bottom-left-radius: 40px;
+                }
+                /* Detilas Area Start*/
+                
+                .details-area {
+                    background-color: #0F6E8C;
+                    display: flex;
+                    height: 400px;
+                }
+                
+                .details-area>* {
+                    flex: 1;
+                }
+                
+                #ll {
+                    margin-top: 60px;
+                    margin-left: 122px;
+                }
+                
+                .list {
+                    display: flex;
+                    margin-top: 60px;
+                    margin-left: 350px;
+                }
+                
+                .l p {
+                    font-family: Inter;
+                    color: #ffffff;
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+                
+                .l {
+                    padding: 20px;
+                    font-family: Inter;
+                    color: #ffffff;
+                    font-size: 16px;
+                    line-height: 30px;
+                }
+                /* Footer Area Start */
+                
+                .footer-area {
+                    background-color: #05546D;
+                    display: flex;
+                    align-items: center;
+                    height: 69.37428283691406px;
+                }
+                
+                .footer-area>* {
+                    flex: 1;
+                }
+                
+                .footer-text p {
+                    font-family: Inter;
+                    color: #D9DBE1;
+                    font-size: 14px;
+                    margin-left: 127px;
+                }
+                
+                .footer-logo {
+                    margin-left: 600px;
+                }
+                
+                .fa-brands {
+                    color: #D9DBE1;
+                    margin-left: 30px;
+                }
+                /* Media Query */
+                /* Extra small devices (phones, 600px and down) */
+                
+                @media all and (max-width: 767px) {
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                    }
+                    /* Header Start */
+                    .header {
+                        background-color: #ffffff;
+                        display: flex;
+                        flex-direction: column;
+                        height: 400px;
+                    }
+                    .menu {
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 0;
+                    }
+                    .search {
+                        margin-left: 0;
+                        margin-right: 40px;
+                        margin-top: 20px;
+                    }
+                    .logo {
+                        margin-left: 0;
+                        margin-right: 40px;
+                        margin-top: 20px;
+                    }
+                    /* Herder End */
+                    /* Hero Start */
+                    .hero-area {
+                        background-color: #F9F8F9;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .hero-title {
+                        font-family: Playfair Display;
+                        font-size: 51px;
+                        line-height: 75px;
+                        color: #094B72;
+                    }
+                    .hero-description {
+                        color: #4F4F4F;
+                        font-family: Plus Jakarta Sans;
+                        font-size: 21px;
+                        line-height: 32px;
+                    }
+                    .btn-hero {
+                        background-color: #094B72;
+                        color: white;
+                        height: 80px;
+                        width: 190px;
+                        border-radius: 8px;
+                        font-family: Plus Jakarta Sans;
+                        font-size: 16px;
+                        font-weight: 700;
+                        letter-spacing: 0.08em;
+                    }
+                    .trust-text {
+                        font-family: Plus Jakarta Sans;
+                        font-size: 22px;
+                        line-height: 31px;
+                        letter-spacing: 0.04em;
+                        text-align: left;
+                        color: #8B8C8C;
+                        margin-top: 100px;
+                    }
+                    .hero-logo {
+                        display: flex;
+                        align-items: center;
+                        gap: 50px
+                    }
+                    .banner {
+                        display: none;
+                    }
+                    /* Hero End */
+                    /* Service Start */
+                    .services-area {
+                        background-color: #F2FCFF;
+                    }
+                    .services {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .services-text {
+                        margin-top: 70px;
+                    }
+                    .services-text h2 {
+                        color: #2D2F30;
+                        font-family: 'Playfair Display', serif;
+                        font-size: 18px;
+                    }
+                    .services-text p {
+                        display: none;
+                    }
+                    .iteams {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 30px;
+                    }
+                    .iteam1 {
+                        display: flex;
+                        gap: 30px;
+                        flex-direction: column;
+                    }
+                    .iteam2 {
+                        display: flex;
+                        gap: 30px;
+                        flex-direction: column;
+                    }
+                    .single-service {
+                        background-color: #FCFCFC;
+                        border-radius: 5px;
+                        width: 250px;
+                        padding: 25px;
+                        box-shadow: -2px 3px 24px 6px rgba(0, 0, 0, 0.13);
+                    }
+                    .single-service h3 {
+                        font-family: 'Playfair Display', serif;
+                        color: #363940;
+                        font-size: 24px;
+                        line-height: 22px;
+                        margin: 13px 0;
+                    }
+                    .single-service p {
+                        color: #8B8C8C;
+                        font-family: 'Plus Jakarta Sans', sans-serif;
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+                    /* Service End */
+                    /* Count Start */
+                    .count-area {
+                        background-color: #1282A6;
+                        text-align: center;
+                        height: 600px;
+                    }
+                    .count-text {
+                        padding: 75px;
+                    }
+                    .count-text h2 {
+                        font-family: Playfair Display;
+                        color: #FFFFFF;
+                        font-size: 21px;
+                        line-height: 36px;
+                        text-align: center;
+                    }
+                    .count-text p {
+                        display: none;
+                    }
+                    .count-number {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .count-number h2 {
+                        font-family: Poppins;
+                        color: #ffffff;
+                        font-size: 48px;
+                    }
+                    .count-number p {
+                        font-family: Poppins;
+                        color: #ffffff;
+                        font-size: 18px;
+                        line-height: 32px;
+                    }
+                    .count1 {
+                        border-right: solid rgba(255, 254, 254, 0.397);
+                    }
+                    #b {
+                        margin-right: 100px;
+                        margin-left: 100px;
+                    }
+                    /* Count End */
+                    /* Testimonial Start */
+                    .testmonial-area {
+                        background-color: #F4FBFF;
+                        height: 580px;
+                    }
+                    .testmonial-text {
+                        text-align: center;
+                        padding: 30px;
+                        font-family: Playfair Display;
+                        font-size: 30px;
+                        line-height: 64px;
+                        letter-spacing: 0.5px;
+                    }
+                    .box {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .box-text {
+                        background-color: #FCFCFC;
+                        margin-right: 30px;
+                        height: 248px;
+                        width: 341px;
+                        border-radius: 10px;
+                        padding: 25px;
+                        box-shadow: -2px 3px 24px 6px rgba(0, 0, 0, 0.13);
+                    }
+                    .box-text h5 {
+                        font-family: Poppins;
+                        color: #151617;
+                        font-size: 20px;
+                        line-height: 28px;
+                        letter-spacing: 0em;
+                        text-align: center;
+                    }
+                    .box-text p {
+                        font-family: Poppins;
+                        color: #4F4F4F;
+                        font-size: 14px;
+                        line-height: 24px;
+                        letter-spacing: 0.5px;
+                        text-align: center;
+                    }
+                    .box-logo {
+                        display: flex;
+                        flex-direction: column;
+                        padding: 20px;
+                    }
+                    .box-t {
+                        margin-left: 20px;
+                    }
+                    .box-t h5 {
+                        font-family: Inter;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 28px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+                    .box-t p {
+                        font-family: Inter;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+                    /* Testimonial End */
+                    /* Support Area Start */
+                    .support-area {
+                        background-color: #FFFFFF;
+                        height: 500px;
+                    }
+                    .support-text {
+                        padding: 30px;
+                        margin-left: 79px;
+                    }
+                    .support-text h3 {
+                        font-family: Playfair Display;
+                        color: #2D2F30;
+                        font-size: 48px;
+                        line-height: 64px;
+                        text-align: left;
+                    }
+                    .support-text p {
+                        font-family: Poppins;
+                        color: #4F4F4F;
+                        font-size: 24px;
+                        line-height: 36px;
+                        text-align: left;
+                    }
+                    .sb {
+                        background-color: #0F6E8C;
+                        color: #ffffff;
+                        height: 64px;
+                        width: 219px;
+                        left: 165px;
+                        top: 3005px;
+                        border-radius: 8px;
+                    }
+                    #sl {
+                        display: none;
+                    }
+                    /* Support Area End */
+                    /* Detilas Area Start*/
+                    .details-area {
+                        /* background-color: #0F6E8C;
+                        display: flex;
+                        height: 400px;
+                        flex-direction: column; */
+                        display: none;
+                    }
+                    /* .details-area>* {
+                        flex: 1;
+                    }
+                    #ll {
+                        margin-top: 60px;
+                        margin-left: 122px;
+                    }
+                    .list {
+                        display: flex;
+                        margin-top: 60px;
+                        margin-left: 350px;
+                        flex-direction: column;
+                    }
+                    .l p {
+                        font-family: Inter;
+                        color: #ffffff;
+                        font-size: 20px;
+                        line-height: 30px;
+                    }
+                    .l {
+                        padding: 20px;
+                        font-family: Inter;
+                        color: #ffffff;
+                        font-size: 16px;
+                        line-height: 30px;
+                    } */
+                    /* Detilas Area End*/
+                    /* Footer Area Start */
+                    .footer-area {
+                        /* background-color: #05546D;
+                        display: flex;
+                        flex-direction: column; */
+                        display: none;
+                    }
+                    /* .footer-text p {
+                        font-family: Inter;
+                        color: #D9DBE1;
+                        font-size: 14px;
+                        margin-left: 127px;
+                    }
+                    .footer-logo {
+                        margin-left: 600px;
+                    }
+                    .fa-brands {
+                        color: #D9DBE1;
+                        margin-left: 30px;
+                    } */
+                    /* Footer Area End */
+                }
